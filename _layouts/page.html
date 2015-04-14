@@ -1,7 +1,9 @@
 ---
-theme :
-  name : mark-reid
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/mark-reid/page.html %}
+
+<article class="single row gutters">
+  <h2>{{ page.title }}</h2>
+
+  {{ content }}
+</article>
